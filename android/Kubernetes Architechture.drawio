@@ -1,41 +1,46 @@
-<mxfile host="app.diagrams.net" modified="2023-01-25T12:42:51.410Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="v7pAJOmCE9Crr8afSSBb" version="20.8.10" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-25T12:54:50.380Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="hf8cOyYR1d80zVu7a_e5" version="20.8.10" type="github">
   <diagram name="Page-1" id="idh2kO2c66qbzGQVRLrM">
     <mxGraphModel dx="880" dy="484" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="ZgwHiGbkkWxTAPNakKfV-4" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="310" y="100" width="200" height="210" as="geometry" />
+          <mxGeometry x="310" y="100" width="200" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="ZgwHiGbkkWxTAPNakKfV-5" value="AMF Deployment" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="ZgwHiGbkkWxTAPNakKfV-5" value="UPF Deployment" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="340" y="110" width="130" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ZgwHiGbkkWxTAPNakKfV-6" value="Open5GS NF AMF" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ZgwHiGbkkWxTAPNakKfV-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZgwHiGbkkWxTAPNakKfV-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="300" y="145" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZgwHiGbkkWxTAPNakKfV-6" value="Open5GS NF&amp;nbsp; UPF" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="320" y="150" width="80" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ZgwHiGbkkWxTAPNakKfV-7" value="linkerd-proxy&lt;br&gt;(service-mesh)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="410" y="150" width="80" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ZgwHiGbkkWxTAPNakKfV-8" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="300" y="170" width="20" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="ZgwHiGbkkWxTAPNakKfV-10" value="AMF SCTP NodePort Service&lt;br&gt;(30412)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="200" y="120" width="100" height="50" as="geometry" />
+        <mxCell id="ZgwHiGbkkWxTAPNakKfV-8" value="ogstun" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="170" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="ZgwHiGbkkWxTAPNakKfV-11" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="500" y="220" width="30" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="ZgwHiGbkkWxTAPNakKfV-12" value="Internal SBI Interface&amp;nbsp;&lt;br&gt;for Communication with other NFs" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="ZgwHiGbkkWxTAPNakKfV-12" value="Internal SBI/PFCP Interface&amp;nbsp;&lt;br&gt;for Communication with other NFs" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="530" y="207.5" width="110" height="45" as="geometry" />
         </mxCell>
         <mxCell id="ZgwHiGbkkWxTAPNakKfV-13" value="UERANSIM" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="80" y="150" width="120" height="60" as="geometry" />
+          <mxGeometry x="50" y="147.5" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ZgwHiGbkkWxTAPNakKfV-14" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="ZgwHiGbkkWxTAPNakKfV-13">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="400" y="230" as="sourcePoint" />
-            <mxPoint x="300" y="180" as="targetPoint" />
+            <mxPoint x="280" y="180" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="ZgwHiGbkkWxTAPNakKfV-16" value="uersimtun0" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="165" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
