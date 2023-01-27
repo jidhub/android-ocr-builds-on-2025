@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-01-27T09:43:03.040Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="RkNMknFS0_L4JQ-brp3i" version="20.8.13" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-27T09:50:25.720Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="jI2PfFD7GG-3hqjFf8an" version="20.8.13" type="github">
   <diagram name="Page-1" id="GUNejaiKio2PQDBOVde5">
-    <mxGraphModel dx="1120" dy="484" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="933" dy="403" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -103,7 +103,7 @@
         <mxCell id="VienW1UAEBqyCbYDbcf2-36" value="N6" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="750" y="405" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="VienW1UAEBqyCbYDbcf2-37" value="" style="endArrow=none;html=1;rounded=0;elbow=vertical;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="VienW1UAEBqyCbYDbcf2-22" edge="1">
+        <mxCell id="VienW1UAEBqyCbYDbcf2-37" value="" style="endArrow=none;html=1;rounded=0;elbow=vertical;exitX=0;exitY=0.5;exitDx=0;exitDy=0;startArrow=none;" parent="1" source="VienW1UAEBqyCbYDbcf2-61" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="425" y="424.47" as="sourcePoint" />
             <mxPoint x="380" y="430" as="targetPoint" />
@@ -125,7 +125,7 @@
           <mxGeometry x="504" y="340" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="VienW1UAEBqyCbYDbcf2-58" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="370" y="300" width="30" height="20" as="geometry" />
+          <mxGeometry x="375" y="310" width="20" height="10" as="geometry" />
         </mxCell>
         <mxCell id="VienW1UAEBqyCbYDbcf2-59" value="Node Port(30412)&amp;nbsp; Endpoint for handling Control Plane SCTP Traffic&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="190" y="308" width="130" height="60" as="geometry" />
@@ -133,16 +133,13 @@
         <mxCell id="VienW1UAEBqyCbYDbcf2-60" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.769;exitY=0.833;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="VienW1UAEBqyCbYDbcf2-59" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="500" y="350" as="sourcePoint" />
-            <mxPoint x="370" y="305" as="targetPoint" />
+            <mxPoint x="370" y="320" as="targetPoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="VienW1UAEBqyCbYDbcf2-61" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="370" y="415" width="30" height="20" as="geometry" />
         </mxCell>
         <mxCell id="VienW1UAEBqyCbYDbcf2-63" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.769;exitY=0.833;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="269.97" y="424.5" as="sourcePoint" />
-            <mxPoint x="380" y="424.52" as="targetPoint" />
+            <mxPoint x="263.97" y="424.5" as="sourcePoint" />
+            <mxPoint x="374" y="424.52" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="VienW1UAEBqyCbYDbcf2-62" value="ogstun interface for handling the data traffic" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
@@ -242,10 +239,19 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="NNIVwGtBNL9wqv9o0g3V-7" value="Interfaces towards MongoDB" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="820" y="247" width="130" height="60" as="geometry" />
+          <mxGeometry x="810" y="247" width="130" height="60" as="geometry" />
         </mxCell>
         <mxCell id="NNIVwGtBNL9wqv9o0g3V-8" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://d1.awsstatic.com/acs/characters/Logos/Docker-Logo_Horizontel_279x131.b8a5c41e56b77706656d61080f6a0217a3ba356d.png;" vertex="1" parent="1">
           <mxGeometry x="417.38" y="83.84" width="77" height="36.16" as="geometry" />
+        </mxCell>
+        <mxCell id="NNIVwGtBNL9wqv9o0g3V-9" value="" style="endArrow=none;html=1;rounded=0;elbow=vertical;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="VienW1UAEBqyCbYDbcf2-22" target="VienW1UAEBqyCbYDbcf2-61">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="425" y="425" as="sourcePoint" />
+            <mxPoint x="380" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VienW1UAEBqyCbYDbcf2-61" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="375" y="417.5" width="20" height="15" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
