@@ -6,7 +6,7 @@ https://github.com/mercuriete/android-mrz-reader
 
 The code shows clearly that https://github.com/mercuriete/android-mrz-reader it as fork of https://github.com/rmtheis/android-ocr 
 
-I will start to undo the new restriction to only scan passports MRZ numbers on https://github.com/jidhub/android-ocr-live-scanner
+I will start to undo the new restriction to only scan passports MRZ numbers in https://github.com/jidhub/android-ocr-live-scanner
 
 To pass the above message, I am using https://github.com/Bharat0908/android-ocr to post this message, because it is currently (as of 1/1/2025) the only active fork of https://github.com/rmtheis/android-ocr
 
